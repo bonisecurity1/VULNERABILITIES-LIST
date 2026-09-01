@@ -1,4 +1,24 @@
-# VULNERABILITIES-LIST
+# 🛡️ The Ultimate Web Vulnerability Guide
+
+Welcome to the **Vulnerabilities List** project! This repository serves as a comprehensive, bilingual (English & Bangla) learning resource and documentation hub for 200 of the most critical web, API, and cloud vulnerabilities.
+
+Whether you are a beginner stepping into bug bounty hunting, a developer writing secure code, or an experienced security researcher reviewing concepts, this guide is structured like a digital book to help you learn efficiently.
+
+## 📖 How to Read This Guide
+- **Bilingual Experience**: Technical terms, payloads, and code snippets are written in **English** for industry-standard accuracy. Core concepts, step-by-step attack mechanisms, and preventions are explained in **Bangla (বাংলা)** for easy understanding.
+- **Continuous Reading**: You can start from the first topic (XSS) and navigate seamlessly to the next using the `[Next ➡️]` and `[⬅️ Previous]` buttons at the bottom of each page.
+- **Standardized Structure**: Every vulnerability page includes:
+  1. **Overview (পরিচিতি)**
+  2. **Technical Details (টেকনিক্যাল তথ্য)**
+  3. **How it Works (কিভাবে কাজ করে)**
+  4. **Example / Proof of Concept (উদাহরণ / পেলোড)**
+  5. **Mitigation / Prevention (কিভাবে প্রতিরোধ করবেন)**
+
+---
+
+## 🚀 Table of Contents (Vulnerability List)
+
+Dive into any topic by clicking the links below:
 
 
 1. [XSS](./vulnerability_list/XSS/README.md)
