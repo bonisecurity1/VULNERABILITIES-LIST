@@ -2,7 +2,8 @@ import os
 import re
 
 # Configuration
-ROOT_DIR = "/home/boni/Documents/Boni_project/bonisecurity/VULNERABILITIES-LIST"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 README_PATH = os.path.join(ROOT_DIR, "README.md")
 VULN_DIR = os.path.join(ROOT_DIR, "vulnerability_list")
 
