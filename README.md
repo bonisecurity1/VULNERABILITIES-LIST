@@ -1,203 +1,203 @@
 # VULNERABILITIES-LIST
 
 
-1. XSS
-2. CSRF
-3. SQLi
-4. LFI
-5. RFI
-6. SSRF
-7. IDOR
-8. RCE
-9. 2FA Bypass
-10. Authentication Bypass
-11. Privilege Escalation
-12. Open Redirect
-13. File Upload Bypass
-14. Session Hijacking
-15. CORS Misconfiguration
-16. Race Condition
-17. Command Injection
-18. XML External Entity (XXE)
-19. Path Traversal
-20. Information Disclosure
-21. Clickjacking
-22. DOM XSS
-23. Stored XSS
-24. Reflected XSS
-25. Blind XSS
-26. Self XSS
-27. HTML Injection
-28. CRLF Injection
-29. OAuth Misconfiguration
-30. Business Logic Flaw
-31. Rate Limit Bypass
-32. Account Takeover
-33. Password Reset Poisoning
-34. Subdomain Takeover
-35. Denial of Service (DoS)
-36. Broken Link Hijacking
-37. Cache Poisoning
-38. JWT Misconfiguration
-39. Parameter Tampering
-40. Insecure Deserialization
-41. API Key Leakage
-42. Directory Listing
-43. Exposed Credentials
-44. WAF Bypass
-45. CSP Bypass
-46. HTTP Request Smuggling
-47. Server Misconfiguration
-48. Email Spoofing
-49. Token Leakage
-50. Insufficient Logging
-51. Brute Force Vulnerability
-52. File Inclusion
-53. Session Fixation
-54. Improper Input Validation
-55. Misconfigured Headers
-56. Unrestricted File Access
-57. Logic Flaw
-58. Payment Manipulation
-59. Access Control Bypass
-60. URL Redirection
-61. SVG XSS
-62. Cookie-Based XSS
-63. JSONP XSS
-64. XSSI (Cross-Site Script Inclusion)
-65. Double Extension Bypass
-66. MIME-Type Bypass
-67. Globbing Bypass
-68. Blacklist Bypass
-69. Source Code Disclosure
-70. Debug Mode Enabled
-71. Backup File Disclosure
-72. Database Exposure
-73. Insecure Redirect
-74. Weak Password Policy
-75. Expired Certificate
-76. TLS Misconfiguration
-77. Reverse Tabnabbing
-78. Reflected File Download (RFD)
-79. Host Header Injection
-80. SMTP Injection
-81. LDAP Injection
-82. NoSQL Injection
-83. GraphQL Injection
-84. Stored CSRF
-85. Reflected CSRF
-86. Post-Based XSS
-87. Get-Based XSS
-88. Image Upload XSS
-89. SVG File XSS
-90. PNG Extension XSS
-91. Stored SQLi
-92. Blind SQLi
-93. Time-Based SQLi
-94. Union-Based SQLi
-95. Error-Based SQLi
-96. Out-of-Band SQLi
-97. Chained Vulnerabilities
-98. Use-After-Free
-99. TOCTOU (Time-of-Check to Time-of-Use)
-100. Insufficient Entropy
-101. Weak Encryption
-102. Hardcoded Secrets
-103. Improper Session Expiration
-104. Missing Rate Limits
-105. Exposed Admin Panel
-106. Unvalidated Redirect
-107. Arbitrary File Read
-108. Arbitrary File Write
-109. Arbitrary Code Execution
-110. Shell Upload
-111. WebSocket Vulnerability
-112. Padding Oracle
-113. Timing Attack
-114. Insecure Randomness
-115. Cross-Origin Resource Sharing (CORS) Bypass
-116. Reflected DOM XSS
-117. Stored DOM XSS
-118. XXE
-119. DoS
-120. XSSI
-121. RFD
-122. TOCTOU
-123. Serverless Misconfiguration
-124. Prototype Pollution
-125. Dependency Confusion
-126. HTTP/2 Smuggling
-127. Web Cache Deception
-128. CSP Misparsing
-129. SSRF Token Leak
-130. OAuth Token Replay
-131. SAML Bypass
-132. gRPC Misconfiguration
-133. API Rate Limit Evasion
-134. Shadow Admin Access
-135. Cloud Metadata Leak
-136. S3 Bucket Enumeration
-137. K8s Privilege Escalation
-138. Docker Escape
-139. Lambda RCE
-140. ECS Task Hijack
-141. IAM Overpermission
-142. JWT Forgery
-143. HSTS Bypass
-144. Websocket Hijacking
-145. QUIC Protocol Abuse
-146. DNS Rebinding
-147. ALB Misconfiguration
-148. SSTI (Server-Side Template Injection)
-149. RPO (Relative Path Overwrite)
-150. CSS Injection
-151. XSLT Injection
-152. WASM Misexecution
-153. CDN Cache Poisoning
-154. OAuth Scope Escalation
-155. Service Worker XSS
-156. PostMessage Abuse
-157. Webhook Spoofing
-158. SQS Misconfiguration
-159. Cognito Token Leak
-160. ECS Metadata SSRF
-161. MFA Sync Bypass
-162. GraphQL Batching Abuse
-163. HTTP Desync Attack
-164. CORS Origin Spoof
-165. Serverless SSRF
-166. IAM Role Chaining
-167. S3 Pre-Signed URL Abuse
-168. KMS Key Exposure
-169. DynamoDB Injection
-170. CloudTrail Bypass
-171. VPC Endpoint SSRF
-172. EKS Cluster Takeover
-173. Fargate RCE
-174. Glue Job Injection
-175. Step Function Abuse
-176. AppSync Overreach
-177. RDS Snapshot Leak
-178. ElastiCache Exposure
-179. SNS Topic Hijack
-180. Redshift Credential Leak
-181. ECS Exec Misuse
-182. Lambda Layer RCE
-183. API Gateway SSRF
-184. CloudFormation Drift
-185. ECS Task Token Leak
-186. Kinesis Stream Poisoning
-187. Sagemaker RCE
-188. Athena Query Injection
-189. ECS Service Hijack
-190. WAF Rule Evasion
-191. ALB Path Confusion
-192. CloudWatch Log Injection
-193. S3 Lifecycle Abuse
-194. Cognito SSRF
-195. App Runner RCE
-196. ECS Fargate Escape
-197. Glue Crawler Exposure
-198. K8s Secret Leak
-199. OAuth PKCE Bypass
-200. WebTransport Abuse
+1. [XSS](./vulnerability_list/XSS/README.md)
+2. [CSRF](./vulnerability_list/CSRF/README.md)
+3. [SQLi](./vulnerability_list/SQLi/README.md)
+4. [LFI](./vulnerability_list/LFI/README.md)
+5. [RFI](./vulnerability_list/RFI/README.md)
+6. [SSRF](./vulnerability_list/SSRF/README.md)
+7. [IDOR](./vulnerability_list/IDOR/README.md)
+8. [RCE](./vulnerability_list/RCE/README.md)
+9. [2FA Bypass](./vulnerability_list/2FA_Bypass/README.md)
+10. [Authentication Bypass](./vulnerability_list/Authentication_Bypass/README.md)
+11. [Privilege Escalation](./vulnerability_list/Privilege_Escalation/README.md)
+12. [Open Redirect](./vulnerability_list/Open_Redirect/README.md)
+13. [File Upload Bypass](./vulnerability_list/File_Upload_Bypass/README.md)
+14. [Session Hijacking](./vulnerability_list/Session_Hijacking/README.md)
+15. [CORS Misconfiguration](./vulnerability_list/CORS_Misconfiguration/README.md)
+16. [Race Condition](./vulnerability_list/Race_Condition/README.md)
+17. [Command Injection](./vulnerability_list/Command_Injection/README.md)
+18. [XML External Entity (XXE)](./vulnerability_list/XML_External_Entity_XXE/README.md)
+19. [Path Traversal](./vulnerability_list/Path_Traversal/README.md)
+20. [Information Disclosure](./vulnerability_list/Information_Disclosure/README.md)
+21. [Clickjacking](./vulnerability_list/Clickjacking/README.md)
+22. [DOM XSS](./vulnerability_list/DOM_XSS/README.md)
+23. [Stored XSS](./vulnerability_list/Stored_XSS/README.md)
+24. [Reflected XSS](./vulnerability_list/Reflected_XSS/README.md)
+25. [Blind XSS](./vulnerability_list/Blind_XSS/README.md)
+26. [Self XSS](./vulnerability_list/Self_XSS/README.md)
+27. [HTML Injection](./vulnerability_list/HTML_Injection/README.md)
+28. [CRLF Injection](./vulnerability_list/CRLF_Injection/README.md)
+29. [OAuth Misconfiguration](./vulnerability_list/OAuth_Misconfiguration/README.md)
+30. [Business Logic Flaw](./vulnerability_list/Business_Logic_Flaw/README.md)
+31. [Rate Limit Bypass](./vulnerability_list/Rate_Limit_Bypass/README.md)
+32. [Account Takeover](./vulnerability_list/Account_Takeover/README.md)
+33. [Password Reset Poisoning](./vulnerability_list/Password_Reset_Poisoning/README.md)
+34. [Subdomain Takeover](./vulnerability_list/Subdomain_Takeover/README.md)
+35. [Denial of Service (DoS)](./vulnerability_list/Denial_of_Service_DoS/README.md)
+36. [Broken Link Hijacking](./vulnerability_list/Broken_Link_Hijacking/README.md)
+37. [Cache Poisoning](./vulnerability_list/Cache_Poisoning/README.md)
+38. [JWT Misconfiguration](./vulnerability_list/JWT_Misconfiguration/README.md)
+39. [Parameter Tampering](./vulnerability_list/Parameter_Tampering/README.md)
+40. [Insecure Deserialization](./vulnerability_list/Insecure_Deserialization/README.md)
+41. [API Key Leakage](./vulnerability_list/API_Key_Leakage/README.md)
+42. [Directory Listing](./vulnerability_list/Directory_Listing/README.md)
+43. [Exposed Credentials](./vulnerability_list/Exposed_Credentials/README.md)
+44. [WAF Bypass](./vulnerability_list/WAF_Bypass/README.md)
+45. [CSP Bypass](./vulnerability_list/CSP_Bypass/README.md)
+46. [HTTP Request Smuggling](./vulnerability_list/HTTP_Request_Smuggling/README.md)
+47. [Server Misconfiguration](./vulnerability_list/Server_Misconfiguration/README.md)
+48. [Email Spoofing](./vulnerability_list/Email_Spoofing/README.md)
+49. [Token Leakage](./vulnerability_list/Token_Leakage/README.md)
+50. [Insufficient Logging](./vulnerability_list/Insufficient_Logging/README.md)
+51. [Brute Force Vulnerability](./vulnerability_list/Brute_Force_Vulnerability/README.md)
+52. [File Inclusion](./vulnerability_list/File_Inclusion/README.md)
+53. [Session Fixation](./vulnerability_list/Session_Fixation/README.md)
+54. [Improper Input Validation](./vulnerability_list/Improper_Input_Validation/README.md)
+55. [Misconfigured Headers](./vulnerability_list/Misconfigured_Headers/README.md)
+56. [Unrestricted File Access](./vulnerability_list/Unrestricted_File_Access/README.md)
+57. [Logic Flaw](./vulnerability_list/Logic_Flaw/README.md)
+58. [Payment Manipulation](./vulnerability_list/Payment_Manipulation/README.md)
+59. [Access Control Bypass](./vulnerability_list/Access_Control_Bypass/README.md)
+60. [URL Redirection](./vulnerability_list/URL_Redirection/README.md)
+61. [SVG XSS](./vulnerability_list/SVG_XSS/README.md)
+62. [Cookie-Based XSS](./vulnerability_list/Cookie-Based_XSS/README.md)
+63. [JSONP XSS](./vulnerability_list/JSONP_XSS/README.md)
+64. [XSSI (Cross-Site Script Inclusion)](./vulnerability_list/XSSI_Cross-Site_Script_Inclusion/README.md)
+65. [Double Extension Bypass](./vulnerability_list/Double_Extension_Bypass/README.md)
+66. [MIME-Type Bypass](./vulnerability_list/MIME-Type_Bypass/README.md)
+67. [Globbing Bypass](./vulnerability_list/Globbing_Bypass/README.md)
+68. [Blacklist Bypass](./vulnerability_list/Blacklist_Bypass/README.md)
+69. [Source Code Disclosure](./vulnerability_list/Source_Code_Disclosure/README.md)
+70. [Debug Mode Enabled](./vulnerability_list/Debug_Mode_Enabled/README.md)
+71. [Backup File Disclosure](./vulnerability_list/Backup_File_Disclosure/README.md)
+72. [Database Exposure](./vulnerability_list/Database_Exposure/README.md)
+73. [Insecure Redirect](./vulnerability_list/Insecure_Redirect/README.md)
+74. [Weak Password Policy](./vulnerability_list/Weak_Password_Policy/README.md)
+75. [Expired Certificate](./vulnerability_list/Expired_Certificate/README.md)
+76. [TLS Misconfiguration](./vulnerability_list/TLS_Misconfiguration/README.md)
+77. [Reverse Tabnabbing](./vulnerability_list/Reverse_Tabnabbing/README.md)
+78. [Reflected File Download (RFD)](./vulnerability_list/Reflected_File_Download_RFD/README.md)
+79. [Host Header Injection](./vulnerability_list/Host_Header_Injection/README.md)
+80. [SMTP Injection](./vulnerability_list/SMTP_Injection/README.md)
+81. [LDAP Injection](./vulnerability_list/LDAP_Injection/README.md)
+82. [NoSQL Injection](./vulnerability_list/NoSQL_Injection/README.md)
+83. [GraphQL Injection](./vulnerability_list/GraphQL_Injection/README.md)
+84. [Stored CSRF](./vulnerability_list/Stored_CSRF/README.md)
+85. [Reflected CSRF](./vulnerability_list/Reflected_CSRF/README.md)
+86. [Post-Based XSS](./vulnerability_list/Post-Based_XSS/README.md)
+87. [Get-Based XSS](./vulnerability_list/Get-Based_XSS/README.md)
+88. [Image Upload XSS](./vulnerability_list/Image_Upload_XSS/README.md)
+89. [SVG File XSS](./vulnerability_list/SVG_File_XSS/README.md)
+90. [PNG Extension XSS](./vulnerability_list/PNG_Extension_XSS/README.md)
+91. [Stored SQLi](./vulnerability_list/Stored_SQLi/README.md)
+92. [Blind SQLi](./vulnerability_list/Blind_SQLi/README.md)
+93. [Time-Based SQLi](./vulnerability_list/Time-Based_SQLi/README.md)
+94. [Union-Based SQLi](./vulnerability_list/Union-Based_SQLi/README.md)
+95. [Error-Based SQLi](./vulnerability_list/Error-Based_SQLi/README.md)
+96. [Out-of-Band SQLi](./vulnerability_list/Out-of-Band_SQLi/README.md)
+97. [Chained Vulnerabilities](./vulnerability_list/Chained_Vulnerabilities/README.md)
+98. [Use-After-Free](./vulnerability_list/Use-After-Free/README.md)
+99. [TOCTOU (Time-of-Check to Time-of-Use)](./vulnerability_list/TOCTOU_Time-of-Check_to_Time-of-Use/README.md)
+100. [Insufficient Entropy](./vulnerability_list/Insufficient_Entropy/README.md)
+101. [Weak Encryption](./vulnerability_list/Weak_Encryption/README.md)
+102. [Hardcoded Secrets](./vulnerability_list/Hardcoded_Secrets/README.md)
+103. [Improper Session Expiration](./vulnerability_list/Improper_Session_Expiration/README.md)
+104. [Missing Rate Limits](./vulnerability_list/Missing_Rate_Limits/README.md)
+105. [Exposed Admin Panel](./vulnerability_list/Exposed_Admin_Panel/README.md)
+106. [Unvalidated Redirect](./vulnerability_list/Unvalidated_Redirect/README.md)
+107. [Arbitrary File Read](./vulnerability_list/Arbitrary_File_Read/README.md)
+108. [Arbitrary File Write](./vulnerability_list/Arbitrary_File_Write/README.md)
+109. [Arbitrary Code Execution](./vulnerability_list/Arbitrary_Code_Execution/README.md)
+110. [Shell Upload](./vulnerability_list/Shell_Upload/README.md)
+111. [WebSocket Vulnerability](./vulnerability_list/WebSocket_Vulnerability/README.md)
+112. [Padding Oracle](./vulnerability_list/Padding_Oracle/README.md)
+113. [Timing Attack](./vulnerability_list/Timing_Attack/README.md)
+114. [Insecure Randomness](./vulnerability_list/Insecure_Randomness/README.md)
+115. [Cross-Origin Resource Sharing (CORS) Bypass](./vulnerability_list/Cross-Origin_Resource_Sharing_CORS_Bypass/README.md)
+116. [Reflected DOM XSS](./vulnerability_list/Reflected_DOM_XSS/README.md)
+117. [Stored DOM XSS](./vulnerability_list/Stored_DOM_XSS/README.md)
+118. [XXE](./vulnerability_list/XXE/README.md)
+119. [DoS](./vulnerability_list/DoS/README.md)
+120. [XSSI](./vulnerability_list/XSSI/README.md)
+121. [RFD](./vulnerability_list/RFD/README.md)
+122. [TOCTOU](./vulnerability_list/TOCTOU/README.md)
+123. [Serverless Misconfiguration](./vulnerability_list/Serverless_Misconfiguration/README.md)
+124. [Prototype Pollution](./vulnerability_list/Prototype_Pollution/README.md)
+125. [Dependency Confusion](./vulnerability_list/Dependency_Confusion/README.md)
+126. [HTTP/2 Smuggling](./vulnerability_list/HTTP2_Smuggling/README.md)
+127. [Web Cache Deception](./vulnerability_list/Web_Cache_Deception/README.md)
+128. [CSP Misparsing](./vulnerability_list/CSP_Misparsing/README.md)
+129. [SSRF Token Leak](./vulnerability_list/SSRF_Token_Leak/README.md)
+130. [OAuth Token Replay](./vulnerability_list/OAuth_Token_Replay/README.md)
+131. [SAML Bypass](./vulnerability_list/SAML_Bypass/README.md)
+132. [gRPC Misconfiguration](./vulnerability_list/gRPC_Misconfiguration/README.md)
+133. [API Rate Limit Evasion](./vulnerability_list/API_Rate_Limit_Evasion/README.md)
+134. [Shadow Admin Access](./vulnerability_list/Shadow_Admin_Access/README.md)
+135. [Cloud Metadata Leak](./vulnerability_list/Cloud_Metadata_Leak/README.md)
+136. [S3 Bucket Enumeration](./vulnerability_list/S3_Bucket_Enumeration/README.md)
+137. [K8s Privilege Escalation](./vulnerability_list/K8s_Privilege_Escalation/README.md)
+138. [Docker Escape](./vulnerability_list/Docker_Escape/README.md)
+139. [Lambda RCE](./vulnerability_list/Lambda_RCE/README.md)
+140. [ECS Task Hijack](./vulnerability_list/ECS_Task_Hijack/README.md)
+141. [IAM Overpermission](./vulnerability_list/IAM_Overpermission/README.md)
+142. [JWT Forgery](./vulnerability_list/JWT_Forgery/README.md)
+143. [HSTS Bypass](./vulnerability_list/HSTS_Bypass/README.md)
+144. [Websocket Hijacking](./vulnerability_list/Websocket_Hijacking/README.md)
+145. [QUIC Protocol Abuse](./vulnerability_list/QUIC_Protocol_Abuse/README.md)
+146. [DNS Rebinding](./vulnerability_list/DNS_Rebinding/README.md)
+147. [ALB Misconfiguration](./vulnerability_list/ALB_Misconfiguration/README.md)
+148. [SSTI (Server-Side Template Injection)](./vulnerability_list/SSTI_Server-Side_Template_Injection/README.md)
+149. [RPO (Relative Path Overwrite)](./vulnerability_list/RPO_Relative_Path_Overwrite/README.md)
+150. [CSS Injection](./vulnerability_list/CSS_Injection/README.md)
+151. [XSLT Injection](./vulnerability_list/XSLT_Injection/README.md)
+152. [WASM Misexecution](./vulnerability_list/WASM_Misexecution/README.md)
+153. [CDN Cache Poisoning](./vulnerability_list/CDN_Cache_Poisoning/README.md)
+154. [OAuth Scope Escalation](./vulnerability_list/OAuth_Scope_Escalation/README.md)
+155. [Service Worker XSS](./vulnerability_list/Service_Worker_XSS/README.md)
+156. [PostMessage Abuse](./vulnerability_list/PostMessage_Abuse/README.md)
+157. [Webhook Spoofing](./vulnerability_list/Webhook_Spoofing/README.md)
+158. [SQS Misconfiguration](./vulnerability_list/SQS_Misconfiguration/README.md)
+159. [Cognito Token Leak](./vulnerability_list/Cognito_Token_Leak/README.md)
+160. [ECS Metadata SSRF](./vulnerability_list/ECS_Metadata_SSRF/README.md)
+161. [MFA Sync Bypass](./vulnerability_list/MFA_Sync_Bypass/README.md)
+162. [GraphQL Batching Abuse](./vulnerability_list/GraphQL_Batching_Abuse/README.md)
+163. [HTTP Desync Attack](./vulnerability_list/HTTP_Desync_Attack/README.md)
+164. [CORS Origin Spoof](./vulnerability_list/CORS_Origin_Spoof/README.md)
+165. [Serverless SSRF](./vulnerability_list/Serverless_SSRF/README.md)
+166. [IAM Role Chaining](./vulnerability_list/IAM_Role_Chaining/README.md)
+167. [S3 Pre-Signed URL Abuse](./vulnerability_list/S3_Pre-Signed_URL_Abuse/README.md)
+168. [KMS Key Exposure](./vulnerability_list/KMS_Key_Exposure/README.md)
+169. [DynamoDB Injection](./vulnerability_list/DynamoDB_Injection/README.md)
+170. [CloudTrail Bypass](./vulnerability_list/CloudTrail_Bypass/README.md)
+171. [VPC Endpoint SSRF](./vulnerability_list/VPC_Endpoint_SSRF/README.md)
+172. [EKS Cluster Takeover](./vulnerability_list/EKS_Cluster_Takeover/README.md)
+173. [Fargate RCE](./vulnerability_list/Fargate_RCE/README.md)
+174. [Glue Job Injection](./vulnerability_list/Glue_Job_Injection/README.md)
+175. [Step Function Abuse](./vulnerability_list/Step_Function_Abuse/README.md)
+176. [AppSync Overreach](./vulnerability_list/AppSync_Overreach/README.md)
+177. [RDS Snapshot Leak](./vulnerability_list/RDS_Snapshot_Leak/README.md)
+178. [ElastiCache Exposure](./vulnerability_list/ElastiCache_Exposure/README.md)
+179. [SNS Topic Hijack](./vulnerability_list/SNS_Topic_Hijack/README.md)
+180. [Redshift Credential Leak](./vulnerability_list/Redshift_Credential_Leak/README.md)
+181. [ECS Exec Misuse](./vulnerability_list/ECS_Exec_Misuse/README.md)
+182. [Lambda Layer RCE](./vulnerability_list/Lambda_Layer_RCE/README.md)
+183. [API Gateway SSRF](./vulnerability_list/API_Gateway_SSRF/README.md)
+184. [CloudFormation Drift](./vulnerability_list/CloudFormation_Drift/README.md)
+185. [ECS Task Token Leak](./vulnerability_list/ECS_Task_Token_Leak/README.md)
+186. [Kinesis Stream Poisoning](./vulnerability_list/Kinesis_Stream_Poisoning/README.md)
+187. [Sagemaker RCE](./vulnerability_list/Sagemaker_RCE/README.md)
+188. [Athena Query Injection](./vulnerability_list/Athena_Query_Injection/README.md)
+189. [ECS Service Hijack](./vulnerability_list/ECS_Service_Hijack/README.md)
+190. [WAF Rule Evasion](./vulnerability_list/WAF_Rule_Evasion/README.md)
+191. [ALB Path Confusion](./vulnerability_list/ALB_Path_Confusion/README.md)
+192. [CloudWatch Log Injection](./vulnerability_list/CloudWatch_Log_Injection/README.md)
+193. [S3 Lifecycle Abuse](./vulnerability_list/S3_Lifecycle_Abuse/README.md)
+194. [Cognito SSRF](./vulnerability_list/Cognito_SSRF/README.md)
+195. [App Runner RCE](./vulnerability_list/App_Runner_RCE/README.md)
+196. [ECS Fargate Escape](./vulnerability_list/ECS_Fargate_Escape/README.md)
+197. [Glue Crawler Exposure](./vulnerability_list/Glue_Crawler_Exposure/README.md)
+198. [K8s Secret Leak](./vulnerability_list/K8s_Secret_Leak/README.md)
+199. [OAuth PKCE Bypass](./vulnerability_list/OAuth_PKCE_Bypass/README.md)
+200. [WebTransport Abuse](./vulnerability_list/WebTransport_Abuse/README.md)
